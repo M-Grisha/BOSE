@@ -1,6 +1,15 @@
-.page{
+@import "./utils/normalize";
+@import "./utils/variable";
+@import "./utils/mixin";
+@import "./utils/grid";
 
-  &__body {
-    
-  }
-}
+@import "./blocks/page.scss";
+@import "./blocks/icons.scss";
+@import "./blocks/container.scss";
+@import "./blocks/header.scss";
+@import "./blocks/menu.scss";
+@import "./blocks/recommended.scss";
+@import "./blocks/category.scss";
+@import "./blocks/testimonials.scss";
+@import "./blocks/contacts.scss";
+@import "./blocks/footer.scss";
